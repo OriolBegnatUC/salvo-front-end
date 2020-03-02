@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import router from "../router/index.js";
-const url = "http://boiling-ocean-98853.herokuapp.com";
+const url = "https://boiling-ocean-98853.herokuapp.com";
 
 Vue.use(Vuex);
 
