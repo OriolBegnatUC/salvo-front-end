@@ -70,6 +70,9 @@ export default new Vuex.Store({
         body: JSON.stringify(payload)
       })
         .then(function(data) {
+          if (data.status == 200) {
+            router.push("/login");
+          }
           if (data.error) {
             console.log("Request success: ", data);
           } else console.log("Request success: ", data);
