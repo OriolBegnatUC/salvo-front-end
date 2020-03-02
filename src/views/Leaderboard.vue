@@ -84,4 +84,9 @@ export default {
 };
 </script>
 <style>
+
+html {
+  background: #35394a;
+}
+
 </style>

@@ -54,6 +54,9 @@ export default {
 </script>
 
 <style>
+html {
+  background: #35394a;
+}
 #main {
   font-family: "Franklin Gothic Medium";
   color: #ff4848;
