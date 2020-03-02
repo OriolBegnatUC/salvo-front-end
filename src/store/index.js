@@ -28,7 +28,7 @@ export default new Vuex.Store({
       })
         .then(function(data) {
           if (data.status == 200) {
-            router.push("/");
+            router.push("/home");
           }
           console.log("Request success: ", data);
         })

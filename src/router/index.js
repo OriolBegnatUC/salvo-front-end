@@ -1,14 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import Login from "../views/Login.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: Home
+    name: "login",
+    component: Login
   },
   {
     path: "/game/:gameId",
@@ -26,9 +26,9 @@ const routes = [
     component: () => import("../views/Leaderboard")
   },
   {
-    path: "/login",
-    name: "login",
-    component: () => import("../views/Login")
+    path: "/home",
+    name: "home",
+    component: () => import("../views/Home")
   },
   {
     path: "/register",
